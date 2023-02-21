@@ -1,0 +1,30 @@
+.main {
+  padding: 25px 0;
+  min-height: 100vh;
+  background-color: #caa;
+  &__title {
+    text-align: center;
+    font-size: 50px;
+    color: #fffa11;
+    text-shadow: 0px 3px 5px #fffa11;
+  }
+
+  &__search {
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    // height: 100px;
+    &-txt {
+      padding: 0 5px;
+      height: 50px;
+      width: 100%;
+      font-size: 25px;
+
+      border-radius: 25px;
+    }
+    &-btn {
+    }
+  }
+}

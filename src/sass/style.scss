@@ -9,9 +9,9 @@
 }
 
 // base
-@import "./base/variables";
-@import "./base/mixins";
-@import "./base/buttons";
+// @import "./base/variables";
+// @import "./base/mixins";
+// @import "./base/buttons";
 
 // container
 .container {
@@ -20,7 +20,7 @@
 }
 
 // blocks
-// @import "./blocks/top";
+@import "./blocks/main";
 // @import "./blocks/rests";
 // @import "./blocks/footer";
 
